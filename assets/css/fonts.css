@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/georgia/georgia-regular/georgia-regular.woff2") format("woff2"),
+    url("../fonts/georgia/georgia-regular/georgia-regular.woff") format("woff"),
+    url("../fonts/georgia/georgia-regular/georgia-regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Georgia";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/georgia/georgia-italic/georgia-italic.woff2") format("woff2"),
+    url("../fonts/georgia/georgia-italic/georgia-italic.woff") format("woff"),
+    url("../fonts/georgia/georgia-italic/georgia-italic.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/georgia/georgia-bold/georgia-bold.woff2") format("woff2"),
+    url("../fonts/georgia/georgia-bold/georgia-bold.woff") format("woff"),
+    url("../fonts/georgia/georgia-bold/georgia-bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/arial/arial-regular/arial-regular.woff2") format("woff2"),
+    url("../fonts/arial/arial-regular/arial-regular.woff") format("woff"),
+    url("../fonts/arial/arial-regular/arial-regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/arial/arial-italic/arial-italic-font.woff2") format("woff2"),
+    url("../fonts/arial/arial-italic/arial-italic-font.woff") format("woff"),
+    url("../fonts/arial/arial-italic/arial-italic-font.ttf") format("ttf");
+}
