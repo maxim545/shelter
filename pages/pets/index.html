@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../assets/icons/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#fafafa">
+    <title>Our pets</title>
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body class="page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <div class="header__inner">
+                    <a href="../../index.html" class="header__logo">
+                        <h1 class="title header__title">Cozy House</h1>
+                        <div class="header__subtitle">Shelter for pets in Boston</div>
+                    </a>
+                    <button class="burger" aria-label="Open menu">
+                        <span class="burger__btn"></span>
+                    </button>
+                    <div class="shadow"></div>
+                    <div class="header__menu">
+                        <div class="header__menu-wrap">
+                            <div class="header__logo header__logo_clone">
+                                <p class="title header__title">Cozy House</p>
+                                <div class="header__subtitle">Shelter for pets in Boston</div>
+                            </div>
+                            <button class="burger burger_clone" aria-label="Open menu">
+                                <span class="burger__btn"></span>
+                            </button>
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item"><a href="../../index.html" class="nav__link">About the shelter</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link active">Our pets</a></li>
+                                <li class="nav__item"><a href="../../index.html#help" class="nav__link">Help the shelter</a></li>
+                                <li class="nav__item"><a href="#footer" class="nav__link">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="pets">
+                <div class="container pets__container">
+                    <div class="pets__heading">
+                        <h2 class="title title_section title_section_small pets__title">Our friends who are&nbsp;looking for a house</h2>
+                    </div>
+                    <div class="pets__cards">
+                         <!--<div class="card">
+                            <div class="card__image"><img src="../../assets/images/slider-images/katrine.png" alt="Katrine"></div>
+                            <div class="card__descr">
+                                <div class="title card__title">Katrine</div>
+                                <button class="btn btn_oval card__btn">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__image"><img src="../../assets/images/slider-images/jennifer.png" alt="Jennifer"></div>
+                            <div class="card__descr">
+                                <div class="title card__title">Jennifer</div>
+                                <button class="btn btn_oval card__btn">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__image"><img src="../../assets/images/slider-images/woody.png" alt="Woody"></div>
+                            <div class="card__descr">
+                                <div class="title card__title">Woody</div>
+                                <button class="btn btn_oval card__btn">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__image"><img src="../../assets/images/slider-images/sophia.png" alt="Sophia"></div>
+                            <div class="card__descr">
+                                <div class="title card__title">Sophia</div>
+                                <button class="btn btn_oval card__btn">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__image"><img src="../../assets/images/slider-images/timmy.png" alt="Timmy"></div>
+                            <div class="card__descr">
+                                <div class="title card__title">Timmy</div>
+                                <button class="btn btn_oval card__btn">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__image"><img src="../../assets/images/slider-images/charly.png" alt="Charly"></div>
+                            <div class="card__descr">
+                                <div class="title card__title">Charly</div>
+                                <button class="btn btn_oval card__btn">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__image"><img src="../../assets/images/slider-images/scarlett.png" alt="Scarlett"></div>
+                            <div class="card__descr">
+                                <div class="title card__title">Scarlett</div>
+                                <button class="btn btn_oval card__btn">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__image"><img src="../../assets/images/slider-images/freddie.png" alt="Freddie"></div>
+                            <div class="card__descr">
+                                <div class="title card__title">Freddie</div>
+                                <button class="btn btn_oval card__btn">Learn more</button>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="pagination">
+                        <button class="btn btn_round pets__btn pets__btn_first disable" data-index="first">&lt;&lt;</button>
+                        <button class="btn btn_round pets__btn pets__btn_prev disable" data-index="prev">&lt;</button>
+                        <!-- <button class="btn btn_round pets__btn active" data-index="0">1</button> -->
+                        <button class="btn btn_round pets__btn pets__btn_next" data-index="next">&gt;</button>
+                        <button class="btn btn_round pets__btn pets__btn_last" data-index="last">&gt;&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="container footer__container">
+                <div class="footer__inner">
+                    <div class="footer__content">
+                        <div class="footer__item footer__item_contacts">
+                            <h3 class="title title_section_small footer__title">For questions and suggestions</h3>
+                            <div class="footer__links">
+                                <a href="mailto:email@shelter.com" class="footer__adress footer__adress_email">email@shelter.com</a>
+                                <a href="Tel:13-674-567-75-54" class="footer__adress footer__adress_phone">+13 674 567 75 54</a>
+                            </div>
+                        </div>
+                        <div class="footer__item  footer__item_pins">
+                            <h3 class="title title_section_small footer__title footer__title_pins">We are waiting for your visit</h3>
+                            <div class="footer__links footer__links_location">
+                                <a href="https://goo.gl/maps/Y7XrrMLYhpoGgjwTA" class="footer__adress footer__adress_location">1 Central Street, Boston (entrance from the store)</a>
+                                <a href="https://goo.gl/maps/n5w69Ynzmzu1AwBC9" class="footer__adress footer__adress_location">18 South Park, London </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__image">
+                        <img src="../../assets/images/footer-puppy.png" alt="funny-puppy">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal" id="modal">
+        <div class="modal__inner modal__animation">
+            <div class="modal__item">
+            </div>
+            <div class="modal__btn"><button class="btn btn_round modal__close-btn"></button></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
